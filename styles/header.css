@@ -1,0 +1,37 @@
+body{
+  font-family: 'Monteserrat', sans-serif;
+}
+header{
+  color: #ffffff;
+}
+.containerHeader{
+  background-color: #000000;
+  width: auto;
+  height: 83px;
+}
+.mateaLogo{
+  position: absolute;
+    left: 66px;
+    top: 25px;
+  width: 37px;
+  height: 33px;
+}
+.mateify{
+  position: absolute;
+    left: 114px;
+    top: 19px;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+}
+.registrarse{
+  position: absolute;
+    left: 789px;
+    top: 28px;
+}
+.iSesion{
+  position: absolute;
+    left: 957px;
+    top: 28px;
+}
