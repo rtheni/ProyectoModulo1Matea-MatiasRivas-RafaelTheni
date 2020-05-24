@@ -1,0 +1,58 @@
+body{
+    font-family: 'Monteserrat', sans-serif;
+}
+header{
+    color: #ffffff;
+    width: 100%;
+}
+.containerHeader{
+    background-color: #000000;
+    border-bottom: 1px solid #212121;
+    width: 100%;
+    height: 83px;
+}
+.header_logo{
+    padding: 0;
+}
+.mateaLogo{
+    position: absolute;
+    top: 25px;
+    width: 37px;
+    height: 33px;
+}
+.mateify{
+    position: absolute;
+    left: 50px;
+    top: 19px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+.linkFlex{
+    display: flex;
+    justify-content: flex-end; 
+}
+.registrarse{
+    position: relative;
+    top: 28px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.iSesion{
+    width: auto;
+    position: relative;
+    top: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.linkhead:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.linkhead:hover{
+    color: #ffffff;
+    text-decoration: none;
+}

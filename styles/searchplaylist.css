@@ -1,0 +1,37 @@
+img{
+    width: 12,8px;
+    height: 14px;
+}
+*{
+    font-family: 'Monteserrat', sans-serif;
+}
+body{
+    background-color: black;
+}
+.sea_Pla--inputs{
+    margin-top: 43px;
+    padding-right: 0;
+}
+.sea_Pla--inputsearch{
+    height: 38px;
+    border-radius: 50px;
+    width: 100%;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+}
+.sea_Pla--search{
+    padding-left: 0;
+}
+.sea_Pla--inputsubmit{
+    height: 38px;
+    border-radius: 50px;
+    background: #1ED760;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid rgba(31, 32, 65, 0.25);
+}
+.sea_Pla--submit{
+    padding-right: 0;
+}
+.lalala{
+}
