@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body{
-  font-family: 'Monteserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(0, 0, 0, 0.84);
+  background-image: url('../images/fondo_home.jpg');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
 }
 header{
   color: #ffffff;
@@ -7,19 +14,22 @@ header{
 }
 .containerHeader{
   background-color: #000000;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
   width: 100%;
   height: 83px;
 }
+.logo{
+  padding-left: 0px;
+}
 .mateaLogo{
   position: absolute;
-    left: 66px;
     top: 25px;
   width: 37px;
   height: 33px;
 }
 .mateify{
   position: absolute;
-    left: 114px;
+    left: 45px;
     top: 19px;
   font-family: 'Righteous';
   font-style: normal;
@@ -53,3 +63,103 @@ header{
   color: #ffffff;
   text-decoration: none;
 }
+.secciónBusqueda{
+  position: absolute;
+    left: 60px;
+  margin-top: 110px
+}
+.section__música{
+  width: 797px;
+  height: 30px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 61px;
+  font-style: normal;
+}
+.section__barraAli{
+  text-align: center;
+}
+.section__barra{
+  width: 80%;
+  height: 57px;
+  margin-top: 60px; 
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #ffffff;
+  border: 1px solid rgba(31, 32, 62, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  font-family: 'Montserrat', FontAwesome, sans-serif;
+}
+.section__barra::placeholder{
+  color: rgba(31, 32, 62, 0.25);
+  font-size: 22px;
+  padding-left: 15px;
+}
+.section__botonContainer{
+  margin: 0 auto;
+  text-align: center;
+}
+.section__boton{
+  width: 348px;
+  height: 57px;
+  margin-top: 50px;
+  background-color: #1ED760;
+  color: #ffffff;
+  border-radius: 42px;
+  font-size: 22px;
+  font-weight: bold;
+}
+footer{
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+    bottom: 0px;
+}
+.footer{
+  background-color: #000000;
+  border-top: 1px solid rgba(101, 101, 101, 0.33);
+  width: 100%;
+  height: 88px;
+  font-weight: 300;
+  position: absolute;
+    bottom: 0px;
+}
+.container{
+  padding: 0px;
+
+}
+.dis{
+  padding-left: 0px;
+}
+.footer__enUru{
+  position: absolute;
+    top: 30px;
+  width: 242px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.spotify{
+  display: flex;
+    justify-content: flex-end;
+}
+.footer__pow{
+  position: absolute;
+    right: 110px;
+    top: 30px;
+  width: 138px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.footer__spotify{
+  width: 111px;
+  height: 35px;
+  position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
