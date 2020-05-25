@@ -1,37 +1,59 @@
 img{
-    width: 12,8px;
-    height: 14px;
+    width: 100%;
+    height: auto;
 }
 *{
-    font-family: 'Monteserrat', sans-serif;
+    font-family: 'Monteserrat', sans-serif
 }
 body{
-    background-color: black;
+    background-color: black
 }
 .sea_Pla--inputs{
     margin-top: 43px;
-    padding-right: 0;
+    padding-right: 0
 }
 .sea_Pla--inputsearch{
     height: 38px;
     border-radius: 50px;
     width: 100%;
     border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
+    box-sizing: border-box
 }
+
 .sea_Pla--search{
     padding-left: 0;
 }
+
 .sea_Pla--inputsubmit{
     height: 38px;
     border-radius: 50px;
     background: #1ED760;
     width: 100%;
     box-sizing: border-box;
-    border: 0px solid rgba(31, 32, 65, 0.25);
+    border: 0px solid rgba(31, 32, 65, 0.25)
 }
+
 .sea_Pla--submit{
-    padding-right: 0;
+    padding-right: 0
 }
-.lalala{
+.col-sm-1siete, .col-sm-1siete {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1siete {
+        float: left;
+    }
+    .col-sm-1siete {
+        width: 14.2851742%;
+    }
+}
+.playlist_cover{
+    margin-left: 2%;
+}
+.playlist_cover1{
+    margin-left: 0;
 }
