@@ -1,0 +1,126 @@
+body{
+  font-family: 'Montserrat', sans-serif, 
+}
+header{
+  color: #000000;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
+  width: 100%;
+  height: 83px;
+}
+header img{
+  width: 37px;
+  height: 33px;
+  filter: invert(100%);
+  margin-top: 20px
+}
+.header__logo{
+  margin: 0 auto;
+}
+.mateify{
+  margin-top: 19px;
+  color: #000000;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: 5px
+}
+.container{
+  max-width: 550px;
+}
+.section__cont{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.section__nomUsu{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 10px;
+}
+.section__nomUsu::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.section__contraseña{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 25px;
+}
+.section__contraseña::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.section__checkbox{
+  width: 29.17px;
+  height: 29.17px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.section__checkboxLabel{
+  width: 163px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.5);
+  padding-left: 10px;
+}
+.section__iniSesión{
+  width: 204px;
+  height: 38px;
+  background: #1ED760;
+  border: 1px none;
+  border-radius: 42px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.section__olvCont{
+  text-align: center;
+  width: 100%;
+  height: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #1ED760;
+  margin-top: 30px;
+}
+.section__barra{
+  width: 100%;
+  height: 0px;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
+  margin-top: 50px;
+}
+.section__sinCuenta{
+  width: 100%;
+  height: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  margin-top: 35px
+}
+.section__registrate{
+  width: 204px;
+  height: 38px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 10px;
+}
