@@ -1,37 +1,40 @@
 body{
     font-family: 'Monteserrat', sans-serif;
 }
-header{
-    color: #ffffff;
-    width: 100%;
-}
-.containerHeader{
+.header_user{
     background-color: #000000;
     border-bottom: 1px solid #212121;
     width: 100%;
     height: 83px;
+    margin: 0;
+    margin-bottom: 43px;
+}
+p.header_user_logo--name, .header_user--name{
+    color: white
 }
 .header_logo{
     padding: 0;
 }
-.mateaLogo{
+.header_user_logo{
+    padding-left: 40px;
+}
+.header_user_logo--img{
     position: absolute;
     top: 25px;
     width: 37px;
     height: 33px;
 }
-.mateify{
+.header_user_logo--name{
     position: absolute;
-    left: 50px;
-    top: 19px;
+    left: 90px;
+    top: 17px;
     font-family: 'Righteous';
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
 }
-.linkFlex{
-    display: flex;
-    justify-content: flex-end; 
+.header_user--user{
+    padding-right: 40px;
 }
 .registrarse{
     position: relative;
@@ -39,20 +42,36 @@ header{
     font-size: 20px;
     line-height: 24px;
 }
-
-.iSesion{
+.header_user--name{
     width: auto;
     position: relative;
     top: 28px;
+    text-align: right;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
 }
-.linkhead:link{
+.header_user--link:link{
     color: #ffffff;
     text-decoration: none;
 }
-.linkhead:hover{
+.header_user--link:hover{
     color: #ffffff;
     text-decoration: none;
+}
+.footer{
+    background-color: #000000;
+    border-top: 1px solid #212121;
+    width: 100%;
+    height: 83px;
+    margin: 0;
+    margin-top: 43px;
+    padding-top: 22px;
+}
+.footer_poweredby{
+    display: block;
+}
+.footer_poweredby--img{
+    height: 37px;
+    width: 119.5782122905028px
 }

@@ -1,59 +1,71 @@
-img{
-    width: 100%;
-    height: auto;
-}
 *{
-    font-family: 'Monteserrat', sans-serif
+    font-family: 'Monteserrat', sans-serif;
+    color: white
+}
+p{
+    color: #7a7a7a
 }
 body{
     background-color: black
 }
-.sea_Pla--inputs{
-    margin-top: 43px;
-    padding-right: 0
-}
-.sea_Pla--inputsearch{
-    height: 38px;
+.playlist_new_input--input{
+    height: 48px;
     border-radius: 50px;
     width: 100%;
+    color:#505054;
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box
 }
-
+.playlist_playlistcollection--group{
+    padding: 0 auto;
+}
+.playlist_new--playlist{
+    margin-top: 50px;
+    padding: 0 40px;
+}
+.playlist_container_content{
+    padding: 0;
+}
 .sea_Pla--search{
     padding-left: 0;
 }
-
-.sea_Pla--inputsubmit{
-    height: 38px;
+.avv{
+    margin: 0;
+}
+.playlist_new_submit{
+    padding-left:40px
+}
+.playlist_new_input{
+    padding-right:40px
+}
+.playlist_playlistcollection--playlist{
+    margin-right: 38px;
+}
+.playlist_playlistcollection--playlist1{
+    margin-left: 55px;
+}
+.playlist_new_submit--btn{
+    height: 48px;
     border-radius: 50px;
     background: #1ED760;
     width: 100%;
+    font-size: 100%;
     box-sizing: border-box;
     border: 0px solid rgba(31, 32, 65, 0.25)
 }
 
-.sea_Pla--submit{
-    padding-right: 0
-}
 .col-sm-1siete, .col-sm-1siete {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
 }
-
-@media (min-width: 768px) {
-    .col-sm-1siete {
-        float: left;
-    }
-    .col-sm-1siete {
-        width: 14.2851742%;
-    }
+.playlist_playbtn{
+    display: none;
+    width: 100px;
+    height: 100px;
 }
-.playlist_cover{
-    margin-left: 2%;
-}
-.playlist_cover1{
-    margin-left: 0;
+.playlist_cover:hover .playlist_playbtn{
+    display: block;
+    visibility: visible;
 }
