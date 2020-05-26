@@ -1,12 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+html{
+  min-height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84) url('../images/fondo_home.jpg'));
+  background-size: cover;
+}
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: rgba(0, 0, 0, 0.84);
-  background-image: url('../images/fondo_home.jpg');
+}
+.fondo img{
+  position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+  z-index: -1;
   width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.fondo__color{
+  background-color: rgba(0, 0, 0, 0.84);
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   background-size: cover;
-  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: 100%;
 }
 header{
   color: #ffffff;
@@ -63,6 +84,9 @@ header{
   color: #ffffff;
   text-decoration: none;
 }
+.linkhead:visited{
+  color: #ffffff;
+}
 .secciónBusqueda{
   position: absolute;
     left: 60px;
@@ -93,6 +117,18 @@ header{
   border-radius: 33px;
   font-family: 'Montserrat', FontAwesome, sans-serif;
 }
+.section__barra:link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.section__barra:hover{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.section__barra:visited{
+  color: #ffffff;
+}
 .section__barra::placeholder{
   color: rgba(31, 32, 62, 0.25);
   font-size: 22px;
@@ -106,6 +142,7 @@ header{
   width: 348px;
   height: 57px;
   margin-top: 50px;
+  border: 1px none;
   background-color: #1ED760;
   color: #ffffff;
   border-radius: 42px;
