@@ -17,7 +17,7 @@ body{
     box-sizing: border-box
 }
 .playlist_playlistcollection--group{
-    padding: 0 auto;
+    margin: 0 0 0 40px;
 }
 .playlist_new--playlist{
     margin-top: 50px;
@@ -32,17 +32,74 @@ body{
 .avv{
     margin: 0;
 }
+.playlist_playlistcollections-title{
+    margin: 0 0 15px 40px;
+}
 .playlist_new_submit{
     padding-left:40px
 }
 .playlist_new_input{
     padding-right:40px
 }
-.playlist_playlistcollection--playlist{
-    margin-right: 38px;
+.playlist_playlistcollection--playlist--cover{
+    width: 100%;
+    height: auto;
 }
-.playlist_playlistcollection--playlist1{
-    margin-left: 55px;
+.playlist_playlistcollection--playlist{
+    padding-right: 40px;
+}
+.playlist_playlistcollection--playlist--last{
+}
+@media (max-width: 767px){
+    .playlist_playlistcollection--playlist{
+        padding: 0;
+        margin: 0;
+    }
+    .playlist_playlistcollection--group{
+        margin: 0;
+        padding: 0;
+    }
+    .playlist_new--playlist{
+        margin: 0;
+    }
+    .playlist_playlistcollections-title{
+        margin: 0;
+    }
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .header_user{
+        border: none;
+        background-color: #18d663;
+        padding: 0;
+        margin: 0;
+    }
+    .header_user_logo--name{
+        position: unset;
+        padding: 0;
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Monteserrat', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}
+.header_user--icon{
+    background-color: red;
+}
+@media (min-width: 768px){
+    .col-sm-c7 {
+        width: 14.285714285714285714285714285714%;
+        *width: 14.285714285714285714285714285714%;
+    }
+}
+@media (max-width: 767px){
+    .col-sm-c7 {
+        width: 50%;
+        *width: 50%;
+    }
 }
 .playlist_new_submit--btn{
     height: 48px;

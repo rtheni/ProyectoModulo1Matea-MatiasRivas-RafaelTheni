@@ -45,7 +45,7 @@ p.header_user_logo--name, .header_user--name{
 .header_user--name{
     width: auto;
     position: relative;
-    top: 28px;
+    top: 12px;
     text-align: right;
     font-weight: bold;
     font-size: 20px;
