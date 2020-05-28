@@ -1,0 +1,337 @@
+body{
+  font-family: 'Montserrat', sans-serif, 
+}
+header{
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
+  width: 100%;
+  height: 83px;
+}
+header img{
+  width: 37px;
+  height: 33px;
+  filter: invert(100%);
+  margin-top: 20px
+}
+.header__logo{
+  margin: 0 auto;
+}
+.mateify{
+  margin-top: 19px;
+  color: #000000;
+  font-family: 'Righteous';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: 5px
+}
+.container{
+  max-width: 550px;
+}
+.registra{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.correo{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 10px;
+}
+.correo::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.correoConf{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 10px;
+}
+.correoConf::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.contraseña{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 10px;
+}
+.contraseña::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.nomUsuario{
+  width: 100%;
+  height: 57px;
+  padding-left: 15px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 33px;
+  margin-bottom: 25px;
+}
+.nomUsuario::placeholder{
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.dropdown{
+  width: 100%;
+  padding-bottom: 50px;
+}
+.dropdown__label{
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.dropdown select:invalid{
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(31, 32, 65, 0.25);
+}
+.dropdown select{
+  height: 56.43px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+.dropdown__día{
+  width: 100%;
+}
+.dropdown__mes{
+  width: 100%;
+  margin-left: -5px;
+}
+.dropdown__año{
+  width: 100%;
+  margin-left: -5px;
+}
+.género input{
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.género__Label{
+  height: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.25);
+  padding-left: 10px;
+}
+.registrarse{
+  width: 100%;
+  height: 38px;
+  background: #1ED760;
+  border: 1px none;
+  border-radius: 42px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.section__barra{
+  width: 100%;
+  height: 0px;
+  border-bottom: 1px solid rgba(101, 101, 101, 0.33);
+  margin-top: 50px;
+}
+.conCuenta{
+  width: 100%;
+  height: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+  margin-top: 35px
+}
+.iniciaSesión{
+  width: 204px;
+  height: 38px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 10px;
+}
+.footer{
+  border-top: 1px solid rgba(101, 101, 101, 0.33);
+  width: 100%;
+  height: 83px;
+  margin-top: 43px;
+  margin-left: 0px;
+}
+.container-fluid{
+  padding-right: 0px;
+}
+.footer_designedby{
+  margin-top: 29px;
+  position: absolute;
+  left: 40px;
+  padding: 0;
+}
+.footer_designedby--p{
+  font-size: 20px;
+}
+.footer_poweredby--p{
+  margin-top: 29px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.footer_poweredby{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 40px;
+  float: right;
+  padding: 0;
+}
+.footer_poweredby--img{
+  margin-top: 24px;
+  height: 37px;
+  width: 119.5782122905028px;
+  filter: brightness(0%)
+}
+
+@media (max-width: 767px){
+  .fondo img{
+    position: absolute;
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    filter: blur(10px) brightness(0.16);
+  }
+  .fondo__color{
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  header{
+    border: none;
+  }
+  .mateify{
+    color: #ffffff;
+  }
+  .mobile{
+    display: flex;
+      justify-content: center;
+      align-content: center;
+    background-color: #ffffff;
+    width: 80%;
+    height: 680px;
+    border-radius: 5px;
+    margin: 0 0 0 10%;
+  }
+  .barras{
+    padding-left: 5px;
+  }
+  .correo{
+    width: 100%;
+    height: 57px;
+  }
+  .correo::placeholder{
+    font-size: 14px;
+  }
+  .correoConf{
+    width: 100%;
+    height: 57px;
+  }
+  .correoConf::placeholder{
+    font-size: 14px;
+  }
+  .contraseña{
+    width: 100%;
+    height: 57px;
+  }
+  .contraseña::placeholder{
+    font-size: 14px;
+  }
+  .nomUsuario{
+    width: 100%;
+    height: 57px;
+  }
+  .nomUsuario::placeholder{
+    font-size: 14px;
+  }
+  .dropdown__label{
+    font-size: 14px;
+  }
+  .dropdown__día{
+    width: 20%;
+    height: 56.43px;
+    font-size: 12px;
+
+  }
+  .dropdown__mes{
+    width: 50%;
+    height: 56.43;
+    font-size: 12px;
+
+  }
+  .dropdown__año{
+    width: 30%;
+    height: 56.43px;
+    font-size: 12px;
+  }
+  .género{
+    padding-left: 10px;
+  }
+  .género input{
+    width: 13.31px;
+    height: 13.62px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .género__Label{
+    height: 33px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.25);
+    padding-left: 10px;
+  }
+  .iniCuenta{
+    color: rgba(31, 32, 65, 0.5);
+    text-align: center;
+    width: 100%;
+  }
+  .iniCuenta__boton{
+    border: 0px solid;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(31, 32, 65, 0.5);
+  }
+}
