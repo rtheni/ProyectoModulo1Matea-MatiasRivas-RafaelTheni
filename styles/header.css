@@ -66,12 +66,31 @@ p.header_user_logo--name, .header_user--name{
     height: 83px;
     margin: 0;
     margin-top: 43px;
-    padding-top: 22px;
+}
+.footer_designedby{
+    margin-top: 29px;
+    position: absolute;
+    left: 40px;
+    padding: 0;
+}
+.footer_designedby--p{
+    color: white;
+}
+.footer_poweredby--p{
+    margin-top: 29px;
+    margin-right: 10px;
+    color: white;
 }
 .footer_poweredby{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+    float: right;
+    padding: 0;
 }
 .footer_poweredby--img{
+    margin-top: 24px;
     height: 37px;
     width: 119.5782122905028px
 }
