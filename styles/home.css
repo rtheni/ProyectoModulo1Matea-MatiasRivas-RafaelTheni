@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+.middle{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home--cover-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    max-height: 800px;
+    z-index: -1;
+    filter: brightness(15%);
+}
+.header_user{
+    margin-bottom: 0;
+}
+.footer{
+    margin-top: 0;
+}
+.fondo__color{
+    background-color: rgba(0, 0, 0, 0.84);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.section__música{
+    width: 100%;
+    height: 30px;
+    margin: 200px auto 0 auto;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    font-style: normal;
+}
+.home_mobile--p1, .home_mobile--p2{
+    width: 100%;
+    margin: 15% auto 0 auto;
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
+}
+.section__barraAli{
+    text-align: center;
+}
+.section__barra{
+    width: 80%;
+    max-width: 700px;
+    height: 57px;
+    margin-top: 300px; 
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffff;
+    border: 1px solid rgba(31, 32, 62, 0.25);
+    box-sizing: border-box;
+    border-radius: 33px;
+    font-family: 'Montserrat', FontAwesome, sans-serif;
+}
+.section__barra:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.section__barra:hover{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.section__barra:visited{
+    color: #ffffff;
+}
+.section__barra::placeholder{
+    color: rgba(31, 32, 62, 0.25);
+    font-size: 22px;
+    padding-left: 15px;
+}
+.section__botonContainer{
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 767px){
+    .header_user{
+        background-color: rgba(0, 0, 0, 0);
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid{
+        height: 0px;
+    }
+    .home--cover-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        max-height: 550%;
+        filter: blur(10px) brightness(15%);
+    }
+    .home_mobile--logo-img{
+        width: 160px;
+        height: 150px;
+        margin: 150px auto 0 auto;
+    }
+    .section__música{
+        margin-top: 350px;
+        font-size: 25px;
+    }
+    .home_mobile--p1{
+        margin-top: 160px;
+    }
+    .home_mobile--p2{
+        margin-top: 70px;
+        width: 350px;
+    }
+    .home_mobile--btn-login{
+        margin: 65px auto 30px auto;
+    }
+    .home_mobile--btn-register{
+        margin: 0 auto;
+    }
+}
+.home_mobile--btn-login{
+    width: 100%;
+    height: 50px;
+    border: 1px none;
+    background-color: #1ED760;
+    color: #ffffff;
+    border-radius: 42px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.home_mobile--btn-register{
+    width: 100%;
+    height: 45px;
+    border: 1px none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    border-radius: 42px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.home_mobile--btn-container{
+    margin: 0 auto;
+}
+.section__boton{
+    width: 280px;
+    height: 57px;
+    margin-top: 400px;
+    border: 1px none;
+    background-color: #1ED760;
+    color: #ffffff;
+    border-radius: 42px;
+    font-size: 22px;
+    font-weight: bold;
+}

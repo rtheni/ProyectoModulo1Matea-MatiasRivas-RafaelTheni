@@ -9,7 +9,7 @@ body{
     margin: 0;
     margin-bottom: 43px;
 }
-p.header_user_logo--name, .header_user--name{
+p.header_user_logo--name, p.header_user--name{
     color: white
 }
 .header_logo{
@@ -51,6 +51,10 @@ p.header_user_logo--name, .header_user--name{
     font-size: 20px;
     line-height: 24px;
 }
+.header_user--link{
+    width: 100%;
+    z-index: 2;
+}
 .header_user--link:link{
     color: #ffffff;
     text-decoration: none;
@@ -58,6 +62,34 @@ p.header_user_logo--name, .header_user--name{
 .header_user--link:hover{
     color: #ffffff;
     text-decoration: none;
+}
+.header_user--link:visited{
+    color: #ffffff;
+}
+
+sdas{
+    border: 1px none;
+    background-color: rgba(0, 0, 0, 0); 
+}
+.header_user--lokkkgin{
+    width: auto;
+    position: absolute;
+    top: 27px;
+    right: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.header_user--register{
+    width: auto;
+    position: absolute;
+    top: 27px;
+    right: 205px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
 }
 .footer{
     background-color: #000000;

@@ -118,11 +118,15 @@ body{
         font-weight: 800;
         text-transform: uppercase;
     }
-    .playlist_playlistcollection--container-playbtn--row2{
-    }
     .header_user--icon{
-        
-    border: 1px solid white;
+        border: 1px solid white;
+    }
+    .playlist_playlistcollection--container-playbtn--row1{
+        top: 0px;
+        left: 15px;
+    }
+    .playlist_playlistcollection--container-playbtn--row2{
+        left: 15px;
     }
 }
 .playlist_playlistcollection--playlist--title{
