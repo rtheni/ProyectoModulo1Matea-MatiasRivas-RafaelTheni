@@ -66,12 +66,20 @@ p.header_user_logo--name, p.header_user--name{
 .header_user--link:visited{
     color: #ffffff;
 }
-
-sdas{
+.header_user--login-login{
+    z-index: 3;
+    width: auto;
+    height: 57px;
     border: 1px none;
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(0, 0, 0,0);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
 }
-.header_user--lokkkgin{
+.header_user--register-register{
+    font-weight: normal;
+}
+.header_user--login{
     width: auto;
     position: absolute;
     top: 27px;

@@ -7,21 +7,23 @@
         <link href="styles/header.css" rel="stylesheet" type="text/css">
         <link href="styles/searchplaylist.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <title>lalala</title>
+        <title>Search playlist</title>
     </head>
     <body>
         <header>
             <div class="container-fluid">
                 <div class="row header_user">
+                    <a class="d-none d-md-block header_user--link" href="home.html">
                     <div class="col-xs-12 col-sm-12 header_user_logo">
                         <img class="d-none d-md-block header_user_logo--img" src="img/matea_logo.png">
                         <p class="header_user_logo--name">Mateify</p>
                     </div>
+                    </a>
                     <div class="col-xs-0 col-sm-12 header_user--user">
-                        <a class="d-none d-md-block header_user--link" href="#"></a><p class="header_user--name">Usuario</p></a>
+                        <a class="d-none d-md-block header_user--link" href="#perfilusuario"><p class="header_user--name">Usuario</p></a>
                     </div>
                     <div class="header_user--icon">
-                        <a class="d-xs-block d-md-none header_user--link" href="#"><img src="img/header_icon_img.png" alt="icono playlisthover" class="header_user--icon--icon"></a>
+                        <a class="d-xs-block d-md-none header_user--link" href="#perfilusuario"><img src="img/header_icon_img.png" alt="icono playlisthover" class="header_user--icon--icon"></a>
                     </div>
                 </div>
             </div>
@@ -32,7 +34,7 @@
                     <input type="search" name="Playlist add" id="" class="form-group col-sm-12 playlist_new_input--input" placeholder="Reggaeton">
                 </div>
                 <div class="col-xssm col-sm-3 d-none d-md-block playlist_new_submit">
-                    <input type="submit" value="NUEVA PLAYLIST" class="btn-block playlist_new_submit--btn text-wrap">
+                    <a href="newplaylist.html"><input type="submit" value="NUEVA PLAYLIST" class="btn-block playlist_new_submit--btn text-wrap"></a>
                 </div>
             </div>
             <div class="row playlist_playlistcollections-title">
@@ -44,7 +46,7 @@
                 <div class="playlist_playlistcollection--playlist1 playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                     <img src="img/Full_Reggaeton.png" alt="imagen de cover Full Reggeatton" class="playlist_playlistcollection--playlist--cover rounded">
                     <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Full Reggaetton</h5>
@@ -56,7 +58,7 @@
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                         <img src="img/Reggaeton_2020.png" alt="imagen de cover Reggeatton 2020" class="playlist_playlistcollection--playlist--cover rounded">
                         <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                            <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                            <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                         </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Reggaeton 2020</h5>
@@ -68,7 +70,7 @@
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                         <img src="img/Remixes.png" alt="imagen de cover Remixes" class="playlist_playlistcollection--playlist--cover rounded">
                         <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                            <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                            <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                         </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Remixes</h5>
@@ -80,7 +82,7 @@
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                         <img src="img/Vieja_Escuela.png" alt="imagen de cover Vieja Escuela" class="playlist_playlistcollection--playlist--cover rounded">
                         <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                            <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                            <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                         </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Vieja Escuela</h5>
@@ -92,7 +94,7 @@
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                         <img src="img/Reggaeton_Clasico.png" alt="imagen de cover Reggeatton Clásico" class="playlist_playlistcollection--playlist--cover rounded img-fluid">
                         <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                            <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                            <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                         </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Reggaeton Clásico</h5>
@@ -104,7 +106,7 @@
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                         <img src="img/Enganchados.jpg" alt="imagen de cover Enganchados" class="playlist_playlistcollection--playlist--cover rounded img-fluid">
                         <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                            <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                            <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                         </div>
                         <h5 class="d-none d-md-block playlist_playlistcollection--playlist--title">Enganchados</h5>
                         <p class="d-none d-md-block playlist_playlistcollection--playlist--subtitle">22 canciones</p>
@@ -112,7 +114,7 @@
                 <div class="playlist_playlistcollection--playlist  playlist_playlistcollection--playlist--last col-xs-6 col-sm-c7">
                     <img src="img/Urbana.png" alt="imagen de cover Urbana" class="playlist_playlistcollection--playlist--cover playlist_playlistcollection--playlist--cover--last rounded img-fluid">
                     <div class="playlist_playlistcollection--container-playbtn--row1 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                     <div class="d-none d-md-block playlist_playlistcollection--playlist--title">
                         <h5>Urbana</h5>
@@ -124,43 +126,43 @@
                 <div class="playlist_playlistcollection--playlist1 playlist_playlistcollection--playlist col-xs col-sm-c7 view overlay zoom">
                     <img src="img/Full_Reggaeton.png" alt="imagen de cover Full Reggeatton" class="playlist_playlistcollection--playlist--cover rounded img-fluid">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist col-xs col-sm-c7">
                     <img src="img/Reggaeton_2020.png" alt="imagen de cover Reggeatton 2020" class="playlist_playlistcollection--playlist--cover rounded">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                     <img src="img/Remixes.png" alt="imagen de cover Remixes" class="playlist_playlistcollection--playlist--cover rounded">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                     <img src="img/Vieja_Escuela.png" alt="imagen de cover Vieja Escuela" class="playlist_playlistcollection--playlist--cover rounded">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                     <img src="img/Reggaeton_Clasico.png" alt="imagen de cover Reggeatton Clásico" class="playlist_playlistcollection--playlist--cover rounded img-fluid">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist col-xs-6 col-sm-c7">
                     <img src="img/Enganchados.jpg" alt="imagen de cover Enganchados" class="playlist_playlistcollection--playlist--cover rounded img-fluid">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
                 <div class="playlist_playlistcollection--playlist playlist_playlistcollection--playlist--last col-xs-6 col-sm-c7">
                     <img src="img/Urbana.png" alt="imagen de cover Urbana" class="playlist_playlistcollection--playlist--cover playlist_playlistcollection--playlist--cover--last rounded img-fluid">
                     <div class="playlist_playlistcollection--container-playbtn--row2 row align-items-center">
-                        <a href="#" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
+                        <a href="editplaylist.html" class="row justify-content-center"><img src="img/hover_playbtn-playlist.png" alt="icono playlisthover" class="col-6 playlist_playbtn"></a>
                     </div>
                 </div>
             </div>
@@ -170,7 +172,7 @@
             <div class="container-fluid">
                 <div class="row footer d-none d-md-block">
                     <div class="col-sm-6 footer_designedby">
-                        <p class="footer_designedby--p">Diseñado en Uruguay por Matias Rivas y Rafael Theni</p>
+                        <p class="footer_designedby--p">Diseñado en Uruguay por <a href="https://github.com/Matiri">Matias Rivas</a> y <a href="https://github.com/rtheni">Rafael Theni</a></p>
                     </div>
                     <div class="col-sm-6 footer_poweredby">
                         <p class="footer_poweredby--p">Powered by</p>

@@ -6,7 +6,7 @@ body{
 }
 .middle{
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
 }
 .home--cover-img{
@@ -22,6 +22,8 @@ body{
 }
 .footer{
     margin-top: 0;
+}
+.ppp{
 }
 .fondo__color{
     background-color: rgba(0, 0, 0, 0.84);
@@ -128,6 +130,9 @@ body{
     }
     .home_mobile--btn-register{
         margin: 0 auto;
+    }
+    .middle{
+        top: 0;
     }
 }
 .home_mobile--btn-login{
