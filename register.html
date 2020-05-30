@@ -13,7 +13,7 @@
     <div class="fondo">
       <img src="images/fondo_home.jpg">
     </div>
-    </div>
+  </div>
   <header>
     <div class="container-fluid">
       <div class="row">
@@ -26,7 +26,6 @@
   </header>
     <div class="container mobile">
       <div class="row">
-        
         <div class="col-sm-12">
           <p class="registra">Registrate con tu dirección de email</p>
         </div>
@@ -44,20 +43,18 @@
         </div>
         <div class="col-sm-12">
           <div class="dropdown">
-            <label class="col-sm-12 dropdown__label" for="fecha">FECHA DE NACIMIENTO</label>
-              
-              <select class="col-sm-2 dropdown__día" id="fecha" name="día" required>
-                <option value="" disabled selected hidden>Día</option>
-              </select>
-              <select class="col-sm-6 dropdown__mes" id="fecha" name="mes" required>
-                <option value="" disabled selected hidden>Mes</option> 
-              </select>
-              <select class="col-sm-4 dropdown__año" id="fecha" name="año" required>
-                <option value="" disabled selected hidden>Año</option>
-              </select>
-            </div>
+            <label class="col-sm-12 dropdown__label" for="fecha">FECHA DE NACIMIENTO</label>    
+            <select class="col-sm-2 dropdown__día" id="fecha" name="día" required>
+              <option value="" disabled selected hidden>Día</option>
+            </select>
+            <select class="col-sm-6 dropdown__mes" id="fecha" name="mes" required>
+              <option value="" disabled selected hidden>Mes</option> 
+            </select>
+            <select class="col-sm-4 dropdown__año" id="fecha" name="año" required>
+              <option value="" disabled selected hidden>Año</option>
+            </select>
           </div>
-        
+        </div>
         <div class="col-sm-12">
           <div class="género">
             <input class="género__masculino" id="masculino" type="radio" name="género"><label class="género__Label" for="masculino">Masculino</label>
@@ -66,39 +63,37 @@
           </div>
         </div>
         <div class="col-sm-12 col-md-12">
-          <!-- Este va a search playlist -->
-          <a href="#"><button class="registrarse" type="submit">REGISTRARSE</button></a>
+          <a href="searchplaylist.html"><button class="registrarse" type="submit">REGISTRARSE</button></a>
         </div>
         <div class="col-sm-12">
-          <div class="section__barra d-none d-sm-block"></div>
+          <div class="barra d-none d-sm-block"></div>
         </div>
         <div class="col-sm-12 col-md-12 d-block d-sm-none iniCuenta">
-          <a href="#"><button class="iniCuenta__boton" type="submit">INICIA SESIÓN CON TU CUENTA</button></a>
+          <a href="login.html"><button class="iniCuenta__boton" type="submit">INICIA SESIÓN CON TU CUENTA</button></a>
         </div>  
-          </div>
-        </div>
-        <div class="d-none d-sm-block">
+      </div>
+    </div>
+      <div class="d-none d-sm-block">
         <div class="col-sm-12">
           <p class="conCuenta">¿Ya tienes cuenta?</p>
         </div>
         <div class="col-sm-12 d-flex justify-content-center">
-          <a href="#"><button class="iniciaSesión" type="button">Inicia Sesión</button></a>
+          <a href="login.html"><button class="iniciaSesión" type="button">Inicia Sesión</button></a>
         </div>
-        </div>
-      
-      <footer>
-        <div class="container-fluid footer__noPadding">
-            <div class="row footer d-none d-sm-block">
-                <div class="col-sm-6 footer_designedby">
-                    <p class="footer_designedby--p">Diseñado en Uruguay</p>
-                </div>
-                <div class="col-sm-6 footer_poweredby">
-                    <p class="footer_poweredby--p">Powered by</p>
-                    <img class="footer_poweredby--img" src="images/spotify__logo.png">
-                </div>
-            </div>
-        </div>
-    </footer>
+      </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row footer d-none d-sm-block">
+          <div class="col-sm-6 footer__designedby">
+            <p class="footer__designedby--p">Diseñado en Uruguay</p>
+          </div>
+          <div class="col-sm-6 footer__poweredby">
+            <p class="footer__poweredby--p">Powered by</p>
+            <img class="footer__poweredby--img" src="images/spotify__logo.png">
+          </div>
+      </div>
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
