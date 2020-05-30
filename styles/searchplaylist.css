@@ -98,35 +98,21 @@ body{
     .playlist_playlistcollections-title{
         margin: 0;
     }
-    .container-fluid{
-        margin: 0;
-        padding: 0;
-    }
-    .header_user{
-        border: none;
-        background-color: #18d663;
-        padding: 0;
-        margin: 0;
-    }
-    .header_user_logo--name{
-        position: unset;
-        padding: 0;
-        text-align: center;
-        margin-top: 17px;
-        font-family: 'Monteserrat', sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        text-transform: uppercase;
-    }
-    .header_user--icon{
-        border: 1px solid white;
-    }
     .playlist_playlistcollection--container-playbtn--row1{
         top: 0px;
         left: 15px;
     }
     .playlist_playlistcollection--container-playbtn--row2{
         left: 15px;
+    }
+    .playlist_new_submit{
+        margin-bottom: 25px;
+        padding:0;
+    }
+    .playlist_new_input{
+        margin-top: 35px;
+        margin-bottom: 0;
+        padding:0
     }
 }
 .playlist_playlistcollection--playlist--title{
@@ -138,32 +124,13 @@ body{
 .playlist_playlistcollection--playlist--subtitle{
     color: #7a7a7a
 }
-
-.header_user--icon--icon{
-    margin-top: 4px;
-    margin-left: 4px;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    color: white;
-    filter: invert(100%);
-    
-}
 .header_user--icon--icon:hover{
     margin-top: 2px;
     margin-left: 2px;
     height: 34px;
     width: 34px;
 }
-.header_user--icon{
-    width: 40px;
-    height: 40px;
-    border-radius: 45%;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
-}
+
 @media (min-width: 768px){
     .col-sm-c7 {
         width: 14.285714285714285714285714285714%;

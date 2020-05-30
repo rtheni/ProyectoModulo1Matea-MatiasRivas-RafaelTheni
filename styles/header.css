@@ -134,3 +134,45 @@ p.header_user_logo--name, p.header_user--name{
     height: 37px;
     width: 119.5782122905028px
 }
+@media (max-width: 767px){
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .header_user{
+        border: none;
+        background-color: #18d663;
+        padding: 0;
+        margin: 0;
+        transition: 1s ease;
+    }
+    .header_user_logo--name{
+        position: unset;
+        padding: 0;
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Monteserrat', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .header_user--icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 45%;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        border: 1px solid white;
+    }
+    .header_user--icon--icon{
+        margin-top: 4px;
+        margin-left: 4px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        color: white;
+        filter: invert(100%);
+    }
+}
