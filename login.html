@@ -9,11 +9,16 @@
   <title>Login</title>
 </head>
 <body>
+  <div class="fondo__color d-block d-sm-none">
+    <div class="fondo">
+      <img src="img/fondo_home.jpg">
+    </div>
+  </div>
   <header>
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center header__logo">
-          <img src="images/matea_logoNegro.png">
+          <img class="d-none d-sm-block" src="img/matea_logoNegro.png">
           <p class="mateify">Meteify</p>
         </div>
       </div>
@@ -21,33 +26,47 @@
   </header>
     <div class="container">
       <div class="row">
-        <div class="col-sm-12">
-          <p class="section__cont">Para continuar, inicia sesión</p>
+        <!--para el la caja de contenido en tamaño mobile-->
+        <div class="mobile">
+          <div class="col-sm-12">
+            <p class="continuar">Para continuar, inicia sesión</p>
+          </div>
+          <div class="col-sm-12">
+            <input class="nombreUsuario" type="text" required placeholder="Correo electrónico o nombre de usuario">
+          </div>
+          <div class="col-sm-12">  
+            <input class="contraseña" type="text" required placeholder="Contraseña">
+          </div>
+          <div class="d-flex justify-content-between">
+            <!--posiciona el checkbox con su etiqueta-->
+            <div class="col-sm-6 posCheck">
+              <input class="checkbox" id="checkbox" type="checkbox"><label class="checkboxLabel" for="checkbox">Recuérdame</label>
+            </div>
+            <div class="col-sm-6 flex-row-reverse d-flex">
+                <a href="searchplaylist.html"><button class="iniSesión d-none d-md-block" type="submit">INICIAR SESIÓN</button></a>
+            </div>
+          </div>
+          <div class="col-sm-6 d-block d-sm-none">
+            <a href="searchplaylist.html"><button class="iniSesión--mobile" type="submit">INICIAR SESIÓN</button></a>
+          </div>
+          <div class="col-sm-12">
+            <p class="olvCont">¿Has olvidado tu contraseña?</p>
+          </div>
+          <div class="col-sm-12 d-none d-sm-block">
+            <div class="barra"></div>
+          </div>
+          <div class="col-sm-12">
+            <p class="sinCuenta">¿No tienes cuenta?</p>
+          </div>
+          <div class="col-sm-12 d-flex justify-content-center">
+            <a href="register.html"><button class="registrate" type="button">REGISTRATE</button></a>
+          </div>
         </div>
-        <div class="col-sm-12">
-          <input class="section__nomUsu" type="text" required placeholder="Correo electrónico o nombre de usuario">
-        </div>
-        <div class="col-sm-12">  
-          <input class="section__contraseña" type="text" required placeholder="Contraseña">
-        </div>
-        <div class="col-sm-6">
-          <input class="section__checkbox" id="checkbox" type="checkbox"><label class="section__checkboxLabel" for="checkbox">Recuérdame</label>
-        </div>
-        <div class="col-sm-6 flex-row-reverse d-flex">
-          <a href="#"><button class="section__iniSesión" type="submit">INICIAR SESIÓN</button></a>
-        </div>
-        <div class="col-sm-12">
-          <p class="section__olvCont">¿Has olvidado tu contraseña?</p>
-        </div>
-        <div class="col-sm-12">
-          <div class="section__barra"></div>
-        </div>
-        <div class="col-sm-12">
-          <p class="section__sinCuenta">¿No tienes cuenta?</p>
-        </div>
-        <div class="col-sm-12 d-flex justify-content-center">
-          <a href="#"><button class="section__registrate" type="button">REGISTRATE</button></a>
-        </div>
+        <footer class="d-block d-sm-none">
+          <div class="footer__cont">
+            <p class="pow">Powered by <img src="img/spotify_logo.png" alt="logo de spotify"></p>
+          </div>
+        </footer>
       </div>
     </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
