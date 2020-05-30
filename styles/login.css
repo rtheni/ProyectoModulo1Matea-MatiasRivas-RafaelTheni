@@ -29,13 +29,16 @@ header img{
 .container{
   max-width: 550px;
 }
-.section__cont{
+.mobile{
+  width: 100%;
+}
+.continuar{
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
 }
-.section__nomUsu{
+.nombreUsuario{
   width: 100%;
   height: 57px;
   padding-left: 15px;
@@ -44,12 +47,12 @@ header img{
   border-radius: 33px;
   margin-bottom: 10px;
 }
-.section__nomUsu::placeholder{
+.nombreUsuario::placeholder{
   font-weight: 600;
   font-size: 18px;
   color: rgba(31, 32, 65, 0.25);
 }
-.section__contraseña{
+.contraseña{
   width: 100%;
   height: 57px;
   padding-left: 15px;
@@ -58,28 +61,32 @@ header img{
   border-radius: 33px;
   margin-bottom: 25px;
 }
-.section__contraseña::placeholder{
+.contraseña::placeholder{
   font-weight: 600;
   font-size: 18px;
   color: rgba(31, 32, 65, 0.25);
 }
-.section__checkbox{
+/* posiciona el checkbox con su etiqueta */
+.posCheck{
+  padding-right: 0px;
+}
+.checkbox{
   width: 29.17px;
   height: 29.17px;
   border: 1px solid rgba(31, 32, 65, 0.25);
   box-sizing: border-box;
   border-radius: 4px;
 }
-.section__checkboxLabel{
-  width: 163px;
+.checkboxLabel{
+  vertical-align: top;
+  padding-left: 2px;
   height: 22px;
   font-weight: 600;
   font-size: 18px;
   color: rgba(31, 32, 65, 0.5);
-  padding-left: 10px;
 }
-.section__iniSesión{
-  width: 204px;
+.iniSesión{
+  width: 100%;
   height: 38px;
   background: #1ED760;
   border: 1px none;
@@ -87,8 +94,10 @@ header img{
   color: #ffffff;
   font-size: 18px;
   font-weight: bold;
+  padding: 0 30px;
+  text-decoration: none;
 }
-.section__olvCont{
+.olvCont{
   text-align: center;
   width: 100%;
   height: 16px;
@@ -97,13 +106,13 @@ header img{
   color: #1ED760;
   margin-top: 30px;
 }
-.section__barra{
+.barra{
   width: 100%;
   height: 0px;
   border-bottom: 1px solid rgba(101, 101, 101, 0.33);
   margin-top: 50px;
 }
-.section__sinCuenta{
+.sinCuenta{
   width: 100%;
   height: 16px;
   font-weight: bold;
@@ -112,7 +121,7 @@ header img{
   color: #000000;
   margin-top: 35px
 }
-.section__registrate{
+.registrate{
   width: 204px;
   height: 38px;
   background: #ffffff;
@@ -123,4 +132,91 @@ header img{
   font-weight: bold;
   color: #000000;
   margin-top: 10px;
+}
+
+@media (max-width: 767px){
+  .fondo img{
+    position: absolute;
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0; 
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    filter: blur(10px) brightness(0.16);
+  }
+  .fondo__color{
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  header{
+    border: none;
+  }
+  .mateify{
+    color: #ffffff;
+    margin-top: 30px;
+    margin-right: 15px;
+  }
+  /* para caja de contenido en mobile */
+  .mobile{
+    background-color: #ffffff;
+    width: 95%;
+    border-radius: 5px;
+    margin: 0 1%;
+    margin-top: 60px;
+    margin-left: 2.5%;
+  }
+  .nombreUsuario::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .contraseña::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .checkboxLabel{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 1px;
+    margin-bottom: 40px;
+  }
+  .iniSesión--mobile{
+    width: 100%;
+    height: 48px;
+    color: #ffffff;
+    background-color: #1ED760;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px none;
+    border-radius: 42px;
+  }
+  .sinCuenta{
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .registrate{
+    border: 1px none;
+    margin-bottom: 20px;
+  }
+  .footer__cont{
+    padding-top: 90px;
+    padding-left: 140px;
+  }
+  .pow{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .pow img{
+    width: 111px;
+    height: 37px;
+  }
 }
