@@ -23,7 +23,8 @@ header img{
   font-weight: normal;
   font-size: 32px;
   line-height: 40px;
-  margin-left: 5px
+  margin-left: 5px;
+  text-align: center;
 }
 .container{
   max-width: 550px;
@@ -252,10 +253,7 @@ header img{
     width: 95%;
     height: 680px;
     border-radius: 5px;
-    margin: 0 0 0 2.5%;
-  }
-  .barras{
-    padding-left: 5px;
+    padding: 0 2.5% 0 2.5%;
   }
   .correo{
     width: 100%;
