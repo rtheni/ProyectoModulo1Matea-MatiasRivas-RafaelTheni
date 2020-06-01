@@ -26,6 +26,7 @@ header img{
   margin-left: 5px;
   text-align: center;
 }
+/* register para desktop */
 .container{
   max-width: 550px;
 }
@@ -149,12 +150,14 @@ header img{
   font-weight: bold;
   text-align: center;
 }
+/* barra para desktop */
 .barra{
   width: 100%;
   height: 0px;
   border-bottom: 1px solid rgba(101, 101, 101, 0.33);
   margin-top: 50px;
 }
+/* fin de formulario en desktop */
 .conCuenta{
   width: 100%;
   height: 16px;
@@ -244,7 +247,7 @@ header img{
   .mateify{
     color: #ffffff;
   }
-  /* características de la caja de contenido mobile */
+  /* register para mobile */
   .mobile{
     display: flex;
       justify-content: center;
