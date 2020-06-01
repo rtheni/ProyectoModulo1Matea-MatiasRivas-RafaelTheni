@@ -57,6 +57,28 @@ td:last-child{
     border-bottom: 1px solid white;
     transition: .3s ease;
 }
+
+.newplaylist__title-input{
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 30%;
+    height: 65px;
+    background-color: rgba(31, 32, 62, 0);
+    border: 0px none;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.newplaylist__title-input:focus{
+    outline: none;
+}
+.newplaylist__title-input::placeholder{
+    text-align: center;
+    font-size: 50px;
+}
 .newplaylist__search{
     margin-top: 20px;
     width: 35%;
