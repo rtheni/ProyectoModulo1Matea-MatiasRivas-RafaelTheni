@@ -9,7 +9,7 @@
   <title>Login</title>
 </head>
 <body>
-  <div class="fondo__color d-block d-sm-none">
+  <div class="fondo__color d-block d-md-none">
     <div class="fondo">
       <img src="img/fondo_home.jpg">
     </div>
@@ -18,15 +18,15 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12 d-flex justify-content-center header__logo">
-          <img class="d-none d-sm-block" src="img/matea_logoNegro.png">
-          <p class="mateify">Meteify</p>
+          <img class="d-none d-md-block" src="img/matea_logoNegro.png">
+          <a href="home.html"><p class="mateify">Mateify</p></a>
         </div>
       </div>
     </div>
   </header>
     <div class="container">
       <div class="row">
-        <!--para el la caja de contenido en tamaño mobile-->
+        <!-- para ingreso de usuario en mobile-->
         <div class="mobile">
           <div class="col-sm-12">
             <p class="continuar">Para continuar, inicia sesión</p>
@@ -42,17 +42,20 @@
             <div class="col-sm-6 posCheck">
               <input class="checkbox" id="checkbox" type="checkbox"><label class="checkboxLabel" for="checkbox">Recuérdame</label>
             </div>
+            <!-- inicia sesión para desktop -->
             <div class="col-sm-6 flex-row-reverse d-flex">
                 <a href="searchplaylist.html"><button class="iniSesión d-none d-md-block" type="submit">INICIAR SESIÓN</button></a>
             </div>
           </div>
-          <div class="col-sm-6 d-block d-sm-none">
+          <!-- inicia sesión para mobile -->
+          <div class="col-sm-12 d-block d-md-none">
             <a href="searchplaylist.html"><button class="iniSesión--mobile" type="submit">INICIAR SESIÓN</button></a>
           </div>
           <div class="col-sm-12">
-            <p class="olvCont">¿Has olvidado tu contraseña?</p>
+            <a href="#recoverpass"><p class="olvCont">¿Has olvidado tu contraseña?</p></a>
           </div>
-          <div class="col-sm-12 d-none d-sm-block">
+          <div class="col-sm-12 d-none d-md-block">
+            <!-- barra en desktop -->
             <div class="barra"></div>
           </div>
           <div class="col-sm-12">
@@ -62,15 +65,12 @@
             <a href="register.html"><button class="registrate" type="button">REGISTRATE</button></a>
           </div>
         </div>
-        <footer class="d-block d-sm-none">
+        <footer class="d-block d-md-none">
           <div class="footer__cont">
             <p class="pow">Powered by <img src="img/spotify_logo.png" alt="logo de spotify"></p>
           </div>
         </footer>
       </div>
     </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
