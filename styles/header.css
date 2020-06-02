@@ -1,0 +1,186 @@
+
+/* Este css es usado por todas las paginas como codigo en comun ya que las mismas comparten el mismo header y footer, 
+si alguna de ellas precisa un codigo especial (ya que el header cambia segun la pagina y el footer en algunas tambien) el mismo
+se encontrara en el .css de la respectiva pagina */
+
+body{
+    font-family: 'Monteserrat', sans-serif;
+}
+.header_user{
+    background-color: #000000;
+    border-bottom: 1px solid #212121;
+    width: 100%;
+    height: 83px;
+    margin: 0;
+    margin-bottom: 43px;
+}
+p.header_user_logo--name, p.header_user--name{
+    color: white
+}
+.header_logo{
+    padding: 0;
+}
+.header_user_logo{
+    padding-left: 40px;
+}
+.header_user_logo--img{
+    position: absolute;
+    top: 25px;
+    width: 37px;
+    height: 33px;
+}
+.header_user_logo--name{
+    position: absolute;
+    left: 90px;
+    top: 17px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+}
+.header_user--user{
+    padding-right: 40px;
+}
+.registrarse{
+    position: relative;
+    top: 28px;
+    font-size: 20px;
+    line-height: 24px;
+}
+.header_user--name{
+    width: auto;
+    position: relative;
+    top: 12px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.header_user--link{
+    width: 100%;
+    z-index: 2;
+}
+.header_user--link:link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_user--link:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_user--link:visited{
+    color: #ffffff;
+}
+.header_user--login-login{
+    z-index: 3;
+    width: auto;
+    height: 57px;
+    border: 1px none;
+    background-color: rgba(0, 0, 0,0);
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+.header_user--register-register{
+    font-weight: normal;
+}
+.header_user--login{
+    width: auto;
+    position: absolute;
+    top: 27px;
+    right: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.header_user--register{
+    width: auto;
+    position: absolute;
+    top: 27px;
+    right: 255px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.footer{
+    background-color: #000000;
+    border-top: 1px solid #212121;
+    width: 100%;
+    height: 83px;
+    margin: 0;
+    margin-top: 43px;
+}
+.footer_designedby{
+    margin-top: 29px;
+    position: absolute;
+    left: 40px;
+    padding: 0;
+}
+.footer_designedby--p{
+    color: white;
+}
+.footer_poweredby--p{
+    margin-top: 29px;
+    margin-right: 10px;
+    color: white;
+}
+.footer_poweredby{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 40px;
+    float: right;
+    padding: 0;
+}
+.footer_poweredby--img{
+    margin-top: 24px;
+    height: 37px;
+    width: 119.5782122905028px
+}
+
+/* codigo para viewport width mobile */
+
+@media (max-width: 767px){
+    .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .header_user{
+        border: none;
+        background-color: #18d663;
+        padding: 0;
+        margin: 0;
+        transition: 1s ease;
+    }
+    .header_user_logo--name{
+        position: unset;
+        padding: 0;
+        text-align: center;
+        margin-top: 17px;
+        font-family: 'Monteserrat', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    .header_user--icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 45%;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        border: 1px solid white;
+    }
+    .header_user--icon--icon{
+        margin-top: 4px;
+        margin-left: 4px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        color: white;
+        filter: invert(100%);
+    }
+}

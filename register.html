@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="styles/header.css" rel="stylesheet" type="text/css">
+  <link href="styles/register.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <title>Register</title>
+</head>
+<body>
+  <div class="fondo__color d-block d-sm-none d-none d-sm-block d-md-none">
+    <div class="fondo">
+      <img src="img/fondo_home.jpg">
+    </div>
+  </div>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 d-flex justify-content-center header__logo">
+          <img class="d-none d-md-block" src="img/matea_logoNegro.png">
+          <a href="index.html"><p class="mateify">Meteify</p></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- formulario para desktop y mobile -->
+    <div class="container mobile">
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="registra">Registrate con tu dirección de email</p>
+        </div>
+        <div class="col-sm-12">
+          <input class="correo" type="text" required placeholder="Correo electrónico">
+        </div>
+        <div class="col-sm-12">  
+          <input class="correoConf" type="text" required placeholder="Confirmar correo electrónico">
+        </div>
+        <div class="col-sm-12">  
+          <input class="contraseña" type="text" required placeholder="Contraseña">
+        </div>
+        <div class="col-sm-12">  
+          <input class="nomUsuario" type="text" required placeholder="Nombre de usuario">
+        </div>
+        <div class="col-sm-12">
+          <div class="dropdown">
+            <label class="col-sm-12 dropdown__label" for="fecha">FECHA DE NACIMIENTO</label>    
+            <select class="col-sm-2 dropdown__día" id="fecha" name="día" required>
+              <option value="" disabled selected hidden>Día</option>
+            </select>
+            <select class="col-sm-6 dropdown__mes" id="fecha" name="mes" required>
+              <option value="" disabled selected hidden>Mes</option> 
+            </select>
+            <select class="col-sm-4 dropdown__año" id="fecha" name="año" required>
+              <option value="" disabled selected hidden>Año</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <div class="género">
+            <input class="género__masculino" id="masculino" type="radio" name="género"><label class="género__Label" for="masculino">Masculino</label>
+            <input class="género__femenino" id="femenino" type="radio" name="género"><label class="género__Label" for="femenino">Femenino</label>
+            <input class="género__otro" id="otro" type="radio" name="género"><label class="género__Label" for="otro">Otro</label>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12">
+          <a href="#registerfinalizado"><button class="registrarse" type="submit">REGISTRARSE</button></a>
+        </div>
+        <div class="col-sm-12">
+          <!-- barra para desktop -->
+          <div class="barra d-none d-md-block"></div>
+          <!-- fin de formulario en desktop -->
+        </div>
+        <div class="col-sm-12 col-md-12 d-md-none iniCuenta">
+          <a href="login.html"><button class="iniCuenta__boton" type="submit">INICIA SESIÓN CON TU CUENTA</button></a>
+        </div>  
+      </div>
+    </div>
+    <!-- fin de register en mobile-->
+    <div class="d-none d-md-block">
+      <div class="col-sm-12">
+        <p class="conCuenta">¿Ya tienes cuenta?</p>
+      </div>
+      <div class="col-sm-12 d-flex justify-content-center">
+        <a href="login.html"><button class="iniciaSesión" type="button">Inicia Sesión</button></a>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+          <div class="row footer d-none d-md-block">
+              <div class="col-sm-6 footer_designedby">
+                  <p class="footer_designedby--p">Diseñado en Uruguay por <a href="https://github.com/Matiri">Matias Rivas</a> y <a href="https://github.com/rtheni">Rafael Theni</a></p>
+              </div>
+              <div class="col-sm-6 footer_poweredby">
+                  <p class="footer_poweredby--p">Powered by</p>
+                  <img class="footer_poweredby--img" src="img/spotify_logo.png">
+              </div>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>

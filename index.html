@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="styles/header.css" rel="stylesheet" type="text/css">
+    <link href="styles/index.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d313c7aa43.js" crossorigin="anonymous"></script>
+    <title>Proyecto</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row header_user">
+            <div class="col-xs-12 col-sm-12 header_user_logo">
+              <img class="d-none d-md-block header_user_logo--img" src="img/matea_logo.png">
+              <p class="d-none d-md-block header_user_logo--name">Mateify</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 d-none d-md-block header_user--register">
+              <p class="header_user--register-register"><a class="header_user--link" href="register.html">Registrarse</a></p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 d-md-block d-none header_user--login">
+              <p class="header_user--login-login"><a class="header_user--link" href="login.html">Iniciar Sesion</a></p>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- Dentro del mismo container se encuentran los elementos de mobile (home_'mobile') y de desktop (solo home)-->
+    <div class="container-fluid ">
+      <div class="row">
+        <img src="img/matea_logo.png" class="d-xs-block d-md-none home_mobile--logo-img">
+        <img src="img/fondo_home.jpg" alt="" class="home--cover-img">
+        <div class="col-xs-12 col-sm-12 col-md-12 home--title_container d-none d-md-block">
+          <p class="home_title">PONGAMOS MÚSICA, JUNTOS</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 d-xs-block d-sm-block d-md-none">
+          <p class="home_mobile--p1">Crea playlists colaborativas</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 d-xs-block d-sm-block d-md-none">
+          <p class="home_mobile--p2">Vota las canciones para que se reproduzcan en el orden que quieras.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 d-xs-block d-sm-block d-md-none home_mobile--btn-container">
+          <a href="login.html"><button class="home_mobile--btn-login">INICIA SESION CON TU CUENTA</button></a>
+        </div>
+        <div class="col-xs-12 col-sm-12 d-xs-block d-sm-block d-md-none home_mobile--btn-container">
+          <a href="register.html"><button class="home_mobile--btn-register">REGISTRATE PARA COMENZAR</button></a>
+        </div>
+        <div class="d-none d-md-block col-xs-12 col-sm-12 col-md-12 home_searchplaylist--input_container">
+          <a href="searchplaylist.html"><input class="home_searchplaylist--input" type="text" placeholder="&#xf002; Buscar una playlist"></a>
+        </div>
+        <div class="d-none d-md-block col-xs-12 col-sm-12 col-md-12 home_newplaylist--button_container">
+          <a href="newplaylist.html"><button class="home_newplaylist--button" type="submit">NUEVA PLAYLIST</button></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer d-none d-md-block">
+          <div class="col-sm-6 footer_designedby">
+            <p class="footer_designedby--p">Diseñado en Uruguay por <a href="https://github.com/Matiri">Matias Rivas</a> y <a href="https://github.com/rtheni">Rafael Theni</a></p>
+          </div>
+          <div class="col-sm-6 footer_poweredby">
+            <p class="footer_poweredby--p">Powered by</p>
+            <img class="footer_poweredby--img" src="img/spotify_logo.png">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

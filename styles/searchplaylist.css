@@ -1,0 +1,203 @@
+*{
+    font-family: 'Monteserrat', sans-serif;
+    color: white
+}
+body{
+    background-color: black
+}
+
+
+.playlist_new_input--input{
+    height: 48px;
+    border-radius: 50px;
+    width: 100%;
+    color:#505054;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box
+}
+.playlist_new_input--input::placeholder{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 50px;
+}
+.playlist_playlistcollection--group{
+    margin: 0 0 0 40px;
+}
+.playlist_new--playlist{
+    margin-top: 50px;
+    padding: 0 40px;
+}
+.playlist_container_content{
+    padding: 0;
+}
+.sea_Pla--search{
+    padding-left: 0;
+}
+.playlist_playlistcollections-title{
+    margin: 0 0 15px 40px;
+}
+.playlist_new_submit{
+    padding-left:40px
+}
+.playlist_new_input{
+    padding-right:40px
+}
+.playlist_playlistcollection--playlist{
+    padding-right: 40px;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    transition: .3s ease;
+}
+.playlist_playlistcollection--container-playbtn--row2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -5px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+.playlist_playlistcollection--container-playbtn--row1{
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: -5px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row1{
+    opacity: 1;
+}
+.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row2{
+    opacity: 1;
+}
+.playlist_new_submit--btn{
+    height: 48px;
+    border-radius: 50px;
+    background: #1ED760;
+    width: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 0px solid rgba(31, 32, 65, 0.25);
+    font-style: normal;
+    font-weight: bold;
+}
+.playlist_playlistcollection{
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+.playlist_playlistcollection--playlist--cover{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.playlist_playbtn{
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    height: 55%;
+    width: 50%;
+}
+.playlist_playlistcollection--playlist--title{
+    margin-top: 5px;
+    height: auto;
+    width: 100%;
+}
+.playlist_playlistcollection--playlist--title h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+.playlist_playlistcollection--playlist--subtitle{
+    color: #7a7a7a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* codigo para viewport width mobile */
+
+@media (min-width: 1200px){
+    .playlist_playlistcollection--container-playbtn--row1{
+        top: -50px;
+    }
+}
+@media (max-width: 1199px){
+    .playlist_playlistcollection--container-playbtn--row1{
+        top: -60px;
+    }
+}
+@media (max-width: 991px){
+    .playlist_playlistcollection--container-playbtn--row1{
+        top: -65px;
+    }
+}
+@media (max-width: 767px){
+    .playlist_playlistcollection--playlist{
+        padding: 0;
+        margin: 0;
+    }
+    .playlist_playlistcollection--group{
+        margin: 0;
+        padding: 0;
+    }
+    .playlist_new--playlist{
+        margin: 0;
+    }
+    .playlist_playlistcollections-title{
+        margin: 0;
+    }
+    .playlist_playlistcollection--container-playbtn--row1{
+        top: 0px;
+        left: 15px;
+    }
+    .playlist_playlistcollection--container-playbtn--row2{
+        left: 15px;
+    }
+    .playlist_new_submit{
+        margin-bottom: 25px;
+        padding:0;
+    }
+    .playlist_new_input{
+        margin-top: 35px;
+        margin-bottom: 0;
+        padding:0
+    }
+}
+
+/* codigo para lograr visualizar 7 elementos en "12 columnas" de bootstrap, se dividio el 100% 
+del ancho de la ventana entre 7 para que nos de el porcentaje que abajo de muestra de 14.285714285714285714285714285714%, 
+ademas tambien se encuentra el codigo para ubicar en 2 columnas los elementos en mobile*/
+
+@media (min-width: 768px){
+    .col-sm-c7 {
+        width: 14.285714285714285714285714285714%;
+    }
+}
+@media (max-width: 767px){
+    .col-sm-c7 {
+        width: 50%;
+    }
+}
+
+/*codigo especifico del header de esta pagina */
+
+.header_user--icon--icon:hover{
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 34px;
+    width: 34px;
+}
