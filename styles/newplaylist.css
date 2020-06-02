@@ -86,6 +86,13 @@ td:last-child{
     box-sizing: border-box;
     border-radius: 33px;
 }
+.newplaylist__search:focus{
+    outline: none;
+}
+.newplaylist__search::placeholder{
+    padding-left: 20px;
+    color: rgba(31, 32, 65, 0.25);
+}
 .newplaylist__showmore{
     text-align: center;
     color: white;

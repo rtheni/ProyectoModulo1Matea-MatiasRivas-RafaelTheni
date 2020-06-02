@@ -15,6 +15,13 @@ body{
     border: 1px solid rgba(31, 32, 65, 0.25);
     box-sizing: border-box
 }
+.playlist_new_input--input::placeholder{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 50px;
+}
 .playlist_playlistcollection--group{
     margin: 0 0 0 40px;
 }
@@ -79,7 +86,9 @@ body{
     width: 100%;
     font-size: 100%;
     box-sizing: border-box;
-    border: 0px solid rgba(31, 32, 65, 0.25)
+    border: 0px solid rgba(31, 32, 65, 0.25);
+    font-style: normal;
+    font-weight: bold;
 }
 .playlist_playlistcollection{
     position: relative; 
@@ -102,12 +111,21 @@ body{
 }
 .playlist_playlistcollection--playlist--title{
     margin-top: 5px;
+    height: auto;
+    width: 100%;
+}
+.playlist_playlistcollection--playlist--title h5{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+    line-height: 16px;
 }
 .playlist_playlistcollection--playlist--subtitle{
-    color: #7a7a7a
+    color: #7a7a7a;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
 }
 
 /* codigo para viewport width mobile */
