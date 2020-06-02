@@ -1,161 +1,160 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link href="styles/header.css" rel="stylesheet" type="text/css">
-        <link href="styles/newplaylist.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-        <title>New playlist</title>
-    </head>
-    <body>
-      <header>
-        <div class="container-fluid">
-            <div class="row header_user">
-                <a class="header_user--link" href="home.html">
-                <div class="col-xs-12 col-sm-12 header_user_logo">
-                    <img class="d-none d-md-block header_user_logo--img" src="img/matea_logo.png">
-                    <p class="header_user_logo--name">Mateify</p>
-                </div>
-                </a>
-                <div class="col-xs-0 col-sm-12 header_user--user">
-                    <a class="header_user--link" href="#perfilusuario"><p class="d-none d-md-block header_user--name">Usuario</p></a>
-                </div>
-                <div class="header_user--icon">
-                    <a class="header_user--link" href="#perfilusuario"><img src="img/header-lupa-icon.png" alt="icono playlisthover" class="d-xs-block d-md-none header_user--icon--icon"></a>
-                </div>
-                <div class="header_user--icon-arrow d-xs-block d-md-none">
-                  <a class="header_user--link" href="#perfilarriba" class="">&#708;</a>
-              </div>
-            </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="styles/header.css" rel="stylesheet" type="text/css">
+    <link href="styles/newplaylist.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>New playlist</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row header_user">
+          <a class="header_user--link" href="home.html">
+          <div class="col-xs-12 col-sm-12 header_user_logo">
+            <img class="d-none d-md-block header_user_logo--img" src="img/matea_logo.png">
+            <p class="header_user_logo--name">Mateify</p>
+          </div>
+          </a>
+          <div class="col-xs-0 col-sm-12 header_user--user">
+            <a class="header_user--link" href="#perfilusuario"><p class="d-none d-md-block header_user--name">Usuario</p></a>
+          </div>
+          <div class="header_user--icon">
+            <a class="header_user--link" href="#perfilusuario"><img src="img/header-lupa-icon.png" alt="icono playlisthover" class="d-xs-block d-md-none header_user--icon--icon"></a>
+          </div>
+          <div class="header_user--icon-arrow d-xs-block d-md-none">
+            <a class="header_user--link" href="#perfilarriba" class="">&#708;</a>
+          </div>
         </div>
-      </header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <input class="newplaylist__title-input" type="text" placeholder="NOMBRA TU PLAYLIST">
-                  <input class="d-none d-md-block newplaylist__search" type="text" placeholder="&#xf002; Buscar una canción">
-                </div>
-                <p class="d-none d-md-block newplaylist__title-addsong-table">Canciones populares en tu zona</p>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <table class="newplaylist--addsong-table">
-                    <tr>
-                      <th class="d-none d-md-block">#</th>
-                      <th>Agregar</th>
-                      <th>Titúlo</th>
-                      <th>Autor</th>
-                      <th>Reproducciones</th>
-                      <th>Duración</th>
-                    </tr>
-                    <tr class="newplaylist--addsong-table-oddrow">
-                      <td class="d-none d-md-block">1</td>
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Dame Dame</td>
-                      <td>Claydee feat</td>
-                      <td>39,566</td>
-                      <td>4:21</td>
-                    </tr>
-                    <tr>
-                      <td class="d-none d-md-block">2</td>
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Kamelia</td>
-                      <td>DDY Nunes</td>
-                      <td>32,420</td>
-                      <td>3:30</td>
-                    </tr>
-                    <tr class="newplaylist--addsong-table-oddrow">
-                      <td class="d-none d-md-block">3</td>
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Laugh Till you cry</td>
-                      <td>Faydee</td>
-                      <td>28,221</td>
-                      <td>3:56</td>
-                    </tr>
-                    <tr>
-                      <td class="d-none d-md-block">4</td>
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>I don't know</td>
-                      <td>Deejay Fly</td>
-                      <td>21,528</td>
-                      <td>2:26</td>
-                    </tr>
-
-                    <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Dame Dame</td>
-                      <td>Claydee feat</td>
-                      <td>39,566</td>
-                      <td>4:21</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Kamelia</td>
-                      <td>DDY Nunes</td>
-                      <td>32,420</td>
-                      <td>3:30</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Laugh Till you cry</td>
-                      <td>Faydee</td>
-                      <td>28,221</td>
-                      <td>3:56</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>I don't know</td>
-                      <td>Deejay Fly</td>
-                      <td>21,528</td>
-                      <td>2:26</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Dame Dame</td>
-                      <td>Claydee feat</td>
-                      <td>39,566</td>
-                      <td>4:21</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Kamelia</td>
-                      <td>DDY Nunes</td>
-                      <td>32,420</td>
-                      <td>3:30</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>Laugh Till you cry</td>
-                      <td>Faydee</td>
-                      <td>28,221</td>
-                      <td>3:56</td>
-                    </tr>
-                    <tr class="d-xs-block d-md-none">
-                      <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
-                      <td>I don't know</td>
-                      <td>Deejay Fly</td>
-                      <td>21,528</td>
-                      <td>2:26</td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                  <a href="#nextlist"><p class="newplaylist__showmore">Show More ˅</p></a>
-                </div>
-            </div>
+      </div>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <input class="newplaylist__title-input" type="text" placeholder="NOMBRA TU PLAYLIST">
+          <input class="d-none d-md-block newplaylist__search" type="text" placeholder="&#xf002; Buscar una canción">
         </div>
-        <footer>
-            <div class="container-fluid">
-                <div class="row footer d-none d-md-block">
-                    <div class="col-sm-6 footer_designedby">
-                        <p class="footer_designedby--p">Diseñado en Uruguay por <a href="https://github.com/Matiri">Matias Rivas</a> y <a href="https://github.com/rtheni">Rafael Theni</a></p>
-                    </div>
-                    <div class="col-sm-6 footer_poweredby">
-                        <p class="footer_poweredby--p">Powered by</p>
-                        <img class="footer_poweredby--img" src="img/spotify_logo.png">
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </body>
+        <p class="d-none d-md-block newplaylist__title-addsong-table">Canciones populares en tu zona</p>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <table class="newplaylist--addsong-table">
+            <tr>
+              <th class="d-none d-md-block">#</th>
+              <th>Agregar</th>
+              <th>Titúlo</th>
+              <th>Autor</th>
+              <th>Reproducciones</th>
+              <th>Duración</th>
+            </tr>
+            <tr class="newplaylist--addsong-table-oddrow">
+              <td class="d-none d-md-block">1</td>
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Dame Dame</td>
+              <td>Claydee feat</td>
+              <td>39,566</td>
+              <td>4:21</td>
+            </tr>
+            <tr>
+              <td class="d-none d-md-block">2</td>
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Kamelia</td>
+              <td>DDY Nunes</td>
+              <td>32,420</td>
+              <td>3:30</td>
+            </tr>
+            <tr class="newplaylist--addsong-table-oddrow">
+              <td class="d-none d-md-block">3</td>
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Laugh Till you cry</td>
+              <td>Faydee</td>
+              <td>28,221</td>
+              <td>3:56</td>
+            </tr>
+            <tr>
+              <td class="d-none d-md-block">4</td>
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>I don't know</td>
+              <td>Deejay Fly</td>
+              <td>21,528</td>
+              <td>2:26</td>
+            </tr>
+            <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Dame Dame</td>
+              <td>Claydee feat</td>
+              <td>39,566</td>
+              <td>4:21</td>
+            </tr>
+            <tr class="d-xs-block d-md-none">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Kamelia</td>
+              <td>DDY Nunes</td>
+              <td>32,420</td>
+              <td>3:30</td>
+            </tr>
+            <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Laugh Till you cry</td>
+              <td>Faydee</td>
+              <td>28,221</td>
+              <td>3:56</td>
+            </tr>
+            <tr class="d-xs-block d-md-none">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>I don't know</td>
+              <td>Deejay Fly</td>
+              <td>21,528</td>
+              <td>2:26</td>
+            </tr>
+            <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Dame Dame</td>
+              <td>Claydee feat</td>
+              <td>39,566</td>
+              <td>4:21</td>
+            </tr>
+            <tr class="d-xs-block d-md-none">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Kamelia</td>
+              <td>DDY Nunes</td>
+              <td>32,420</td>
+              <td>3:30</td>
+            </tr>
+            <tr class="d-xs-block d-md-none newplaylist--addsong-table-oddrow">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>Laugh Till you cry</td>
+              <td>Faydee</td>
+              <td>28,221</td>
+              <td>3:56</td>
+            </tr>
+            <tr class="d-xs-block d-md-none">
+              <td><a href="#addsong"><img class="newplaylist_addsong-btn" src="img/newplaylist-addsong.png" alt=""></a></td>
+              <td>I don't know</td>
+              <td>Deejay Fly</td>
+              <td>21,528</td>
+              <td>2:26</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <a href="#nextlist"><p class="newplaylist__showmore">Show More ˅</p></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer d-none d-md-block">
+          <div class="col-sm-6 footer_designedby">
+            <p class="footer_designedby--p">Diseñado en Uruguay por <a href="https://github.com/Matiri">Matias Rivas</a> y <a href="https://github.com/rtheni">Rafael Theni</a></p>
+          </div>
+          <div class="col-sm-6 footer_poweredby">
+            <p class="footer_poweredby--p">Powered by</p>
+            <img class="footer_poweredby--img" src="img/spotify_logo.png">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

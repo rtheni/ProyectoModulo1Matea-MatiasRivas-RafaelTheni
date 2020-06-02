@@ -1,3 +1,8 @@
+
+/* Este css es usado por todas las paginas como codigo en comun ya que las mismas comparten el mismo header y footer, 
+si alguna de ellas precisa un codigo especial (ya que el header cambia segun la pagina y el footer en algunas tambien) el mismo
+se encontrara en el .css de la respectiva pagina */
+
 body{
     font-family: 'Monteserrat', sans-serif;
 }
@@ -134,6 +139,9 @@ p.header_user_logo--name, p.header_user--name{
     height: 37px;
     width: 119.5782122905028px
 }
+
+/* codigo para viewport width mobile */
+
 @media (max-width: 767px){
     .container-fluid{
         margin: 0;

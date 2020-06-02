@@ -5,6 +5,8 @@
 body{
     background-color: black
 }
+
+
 .playlist_new_input--input{
     height: 48px;
     border-radius: 50px;
@@ -26,9 +28,6 @@ body{
 .sea_Pla--search{
     padding-left: 0;
 }
-.avv{
-    margin: 0;
-}
 .playlist_playlistcollections-title{
     margin: 0 0 15px 40px;
 }
@@ -38,7 +37,6 @@ body{
 .playlist_new_input{
     padding-right:40px
 }
-
 .playlist_playlistcollection--playlist{
     padding-right: 40px;
     position: relative;
@@ -68,6 +66,52 @@ body{
     opacity: 0;
     transition: .3s ease;
 }
+.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row1{
+    opacity: 1;
+}
+.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row2{
+    opacity: 1;
+}
+.playlist_new_submit--btn{
+    height: 48px;
+    border-radius: 50px;
+    background: #1ED760;
+    width: 100%;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 0px solid rgba(31, 32, 65, 0.25)
+}
+.playlist_playlistcollection{
+    position: relative; 
+    left: 0; 
+    top: 0;
+}
+.playlist_playlistcollection--playlist--cover{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.playlist_playbtn{
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    height: 55%;
+    width: 50%;
+}
+.playlist_playlistcollection--playlist--title{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.playlist_playlistcollection--playlist--subtitle{
+    color: #7a7a7a
+}
+
+/* codigo para viewport width mobile */
+
 @media (min-width: 1200px){
     .playlist_playlistcollection--container-playbtn--row1{
         top: -50px;
@@ -115,72 +159,27 @@ body{
         padding:0
     }
 }
-.playlist_playlistcollection--playlist--title{
-    margin-top: 5px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-}
-.playlist_playlistcollection--playlist--subtitle{
-    color: #7a7a7a
-}
-.header_user--icon--icon:hover{
-    margin-top: 2px;
-    margin-left: 2px;
-    height: 34px;
-    width: 34px;
-}
+
+/* codigo para lograr visualizar 7 elementos en "12 columnas" de bootstrap, se dividio el 100% 
+del ancho de la ventana entre 7 para que nos de el porcentaje que abajo de muestra de 14.285714285714285714285714285714%, 
+ademas tambien se encuentra el codigo para ubicar en 2 columnas los elementos en mobile*/
 
 @media (min-width: 768px){
     .col-sm-c7 {
         width: 14.285714285714285714285714285714%;
-        *width: 14.285714285714285714285714285714%;
     }
 }
 @media (max-width: 767px){
     .col-sm-c7 {
         width: 50%;
-        *width: 50%;
     }
 }
-.playlist_new_submit--btn{
-    height: 48px;
-    border-radius: 50px;
-    background: #1ED760;
-    width: 100%;
-    font-size: 100%;
-    box-sizing: border-box;
-    border: 0px solid rgba(31, 32, 65, 0.25)
-}
 
-.col-sm-1siete, .col-sm-1siete {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.playlist_playlistcollection{
-    position: relative; 
-    left: 0; 
-    top: 0;
-}
-.playlist_playlistcollection--playlist--cover{
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 0;
-    left: 0;
-}
-.playlist_playbtn{
-    align-content: center;
-    margin: 0;
-    padding: 0;
-    height: 55%;
-    width: 50%;
-}
-.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row1{
-    opacity: 1;
-}
-.playlist_playlistcollection--playlist:hover .playlist_playlistcollection--container-playbtn--row2{
-    opacity: 1;
+/*codigo especifico del header de esta pagina */
+
+.header_user--icon--icon:hover{
+    margin-top: 2px;
+    margin-left: 2px;
+    height: 34px;
+    width: 34px;
 }

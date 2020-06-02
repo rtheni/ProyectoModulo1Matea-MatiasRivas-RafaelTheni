@@ -8,6 +8,22 @@ body{
 table{
     border: 0px none;
 }
+th, td{
+    padding: 20px 10px;
+}
+th{
+    color: white;
+}
+td:first-child{
+    border: 0px solid black;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+td:last-child{
+    border: 0px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .newplaylist_votesong-btn{
     margin-top: 10px;
     width: 25px;
@@ -26,33 +42,14 @@ table{
     width: 85%;
     transition: .3s ease;
 }
-th, td{
-    padding: 20px 10px;
-}
-th{
-    color: white;
-}
 .newplaylist--addsong-table-oddrow{
     background-color: #282828;
-}
-td:first-child{
-    border: 0px solid black;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-td:last-child{
-    border: 0px solid black;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 .newplaylist__title-addsong-table{
     width: 85%;
     margin: 100px 0 5px 7.5%;
     color: white;
     transition: .3s ease;
-}
-.header_user{
-    margin-bottom: 0;
 }
 .newplaylist__title{
     margin-top: 30px;
@@ -86,6 +83,9 @@ td:last-child{
     text-align: center;
     color: white;
 }
+
+/* codigo para viewport width mobile */
+
 @media (max-width: 767px){
     .newplaylist__title{
         text-transform: uppercase;
@@ -107,4 +107,10 @@ td:last-child{
         width: 25px;
         height: 25px;
     }
+}
+
+/*codigo especifico del header de esta pagina */
+
+.header_user{
+    margin-bottom: 0;
 }

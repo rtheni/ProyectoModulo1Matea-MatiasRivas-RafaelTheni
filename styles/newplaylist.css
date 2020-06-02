@@ -8,24 +8,11 @@ body{
 table{
     border: 0px none;
 }
-.newplaylist_addsong-btn{
-    width: 25px;
-    height: 25px;
-    margin-left: 10%;
-}
-.newplaylist--addsong-table{
-    margin: 0 0 50px 7.5%;
-    width: 85%;
-    transition: .3s ease;
-}
 th, td{
     padding: 20px 10px;
 }
 th{
     color: white;
-}
-.newplaylist--addsong-table-oddrow{
-    background-color: #282828;
 }
 td:first-child{
     border: 0px solid black;
@@ -37,14 +24,24 @@ td:last-child{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.newplaylist_addsong-btn{
+    width: 25px;
+    height: 25px;
+    margin-left: 10%;
+}
+.newplaylist--addsong-table{
+    margin: 0 0 50px 7.5%;
+    width: 85%;
+    transition: .3s ease;
+}
 .newplaylist__title-addsong-table{
     width: 85%;
     margin: 100px 0 5px 7.5%;
     color: white;
     transition: .3s ease;
 }
-.header_user{
-    margin-bottom: 0;
+.newplaylist--addsong-table-oddrow{
+    background-color: #282828;
 }
 .newplaylist__title, .newplaylist__title--mobile{
     margin-top: 30px;
@@ -93,6 +90,9 @@ td:last-child{
     text-align: center;
     color: white;
 }
+
+/* codigo para viewport width mobile */
+
 @media (max-width: 767px){
     .newplaylist__title--mobile{
         margin-top: 150px;
@@ -130,4 +130,10 @@ td:last-child{
         z-index: 4;
         border: 1px solid white;
     }
+}
+
+/*codigo especifico del header de esta pagina */
+
+.header_user{
+    margin-bottom: 0;
 }
